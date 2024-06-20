@@ -1,0 +1,44 @@
+.header {
+  border: 1px solid #000;
+  justify-content: space-between;
+  display: flex;
+}
+
+.nav-items > ul {
+  margin: 10px;
+  padding: 10px;
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-items > ul > li {
+  padding: 10px;
+}
+
+.card {
+  border: 1px solid #000;
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.card > img {
+  width: 100%;
+}
+
+.reslist {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.shimmercard {
+  background-color: #d3d3d3;
+  width: 300px;
+  height: 400px;
+  margin: 20px;
+}
+
+.menu {
+  display: flex;
+}
+/*# sourceMappingURL=index.3a01df49.css.map */
