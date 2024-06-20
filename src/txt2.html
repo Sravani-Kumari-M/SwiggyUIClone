@@ -1,0 +1,42 @@
+ return(
+        
+        <div>
+            
+            {
+                restaurants?<div id="data">
+                <h2>Restaurant id:{id}</h2>
+                <h2>{restaurants?.cards[2]?.card?.card?.info?.name}</h2>
+                <img style={{ width: 300, height: 200 }}src={IMG_CDN_URL+restaurants?.cards[2]?.card?.card?.info?.cloudinaryImageId}/>
+                <h3>{restaurants?.cards[2]?.card?.card?.info?.areaName}</h3>
+                <h3>{restaurants?.cards[2]?.card?.card?.info?.city}</h3>
+                <h3>{restaurants?.cards[2]?.card?.card?.info?.avgRating}stars</h3>
+                <h3>{restaurants?.cards[2]?.card?.card?.info?.costForTwoMessage}</h3>
+
+
+            </div>:(<div>Loading..</div>)
+            }
+
+
+
+            
+           
+            {/*<div>
+            
+            
+            
+            
+           
+            </div>
+
+            <div>
+                <h2>Menu</h2>
+                <ul>{Object.values(restaurants?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card?.card?.itemCards[0]?.card?.info).map((item)=>{
+                    <li key={restaurants?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card?.card?.itemCards[0]?.card?.info?.id}>
+                    {restaurants?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card?.card?.itemCards[0]?.card?.info?.name}</li>
+                })}</ul>
+            </div>
+
+
+
+        </div>
+    )
